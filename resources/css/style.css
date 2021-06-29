@@ -170,3 +170,37 @@ header{
 .main-nav li a:active{
     border-bottom: 2px solid #af5404;    
 }
+/*---------------Feature Section---------------------*/
+.section-feature .long-para{
+    margin-bottom: 30px;
+}
+/*---------------Meal Section---------------------*/
+.section-meal{
+    padding:0;
+}
+.meal-showcase{
+    width: 100%;
+    list-style: none;
+}
+.meal-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+.meal-photo{
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+}
+.meal-photo img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s, scale 0.5s;
+}
+.meal-photo img:hover{
+    transform: scale(1.03);
+    opacity: 1.0;
+}
